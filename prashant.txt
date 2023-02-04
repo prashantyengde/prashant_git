@@ -1,2 +1,117 @@
 Prashant balasaheb Yengde
 enginnering 
+Microsoft Windows [Version 10.0.19045.2486]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT>mkdir prashant_git
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT>cd prashant_git
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git init
+Initialized empty Git repository in C:/Users/Prashant.Yengde/OneDrive - Sapiens/Desktop/PRASHANT/prashant_git/.git/
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>ls -al
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>la
+'la' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git add README.md
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git commit -m "initial commit"
+[master (root-commit) ecc8eec] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git log
+commit ecc8eec88a5f56d95c954bcbfd41f30e22f89242 (HEAD -> master)
+Author: prashantyengde <61056551+prashantyengde@users.noreply.github.com>
+Date:   Sun Feb 5 00:50:08 2023 +0530
+
+    initial commit
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git remote add origin https://github.com/prashantyengde/prashant_git.git
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git remote add origin https://github.com/prashantyengde/prashant_git.git
+error: remote origin already exists.
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git log
+commit ecc8eec88a5f56d95c954bcbfd41f30e22f89242 (HEAD -> master)
+Author: prashantyengde <61056551+prashantyengde@users.noreply.github.com>
+Date:   Sun Feb 5 00:50:08 2023 +0530
+
+    initial commit
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git config --global user.name "prashantyengde"
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git config --global user.email "prashantyengde@gmail.com"
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=prashantyengde
+user.email=prashantyengde@gmail.com
+user.password=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
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/prashantyengde/prashant_git.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/prashantyengde/prashant_git.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git add prashant.txt
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git commit -m "Prashant new git"
+[master ab4aae5] Prashant new git
+ 1 file changed, 2 insertions(+)
+ create mode 100644 prashant.txt
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 319 bytes | 159.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/prashantyengde/prashant_git.git
+   ecc8eec..ab4aae5  master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\Prashant.Yengde\OneDrive - Sapiens\Desktop\PRASHANT\prashant_git>
